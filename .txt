@@ -1,0 +1,121 @@
+You are a codebase scaffolding assistant.
+
+Your task is to recreate a project folder and file structure EXACTLY as specified.
+
+STRICT RULES:
+1. Create ONLY folders and files — do NOT add extra files, comments, or explanations.
+2. Follow the EXACT naming conventions:
+   - Uppercase letters must remain uppercase.
+   - Lowercase letters must remain lowercase.
+   - Special characters (e.g. $, _, -) must be preserved exactly.
+3. Maintain the EXACT hierarchy (folder nesting must match perfectly).
+4. If a file is listed, create it as an empty file unless otherwise specified.
+5. Do NOT modify, improve, or restructure anything.
+6. Do NOT infer missing files — ONLY create what is listed.
+7. Output must be executable shell commands (bash preferred).
+
+PROJECT STRUCTURE:
+
+src/
+  components/
+    ui/
+      accordion.tsx
+      alert-dialog.tsx
+      alert.tsx
+      aspect-ratio.tsx
+      avatar.tsx
+      badge.tsx
+      breadcrumb.tsx
+      button.tsx
+      calendar.tsx
+      card.tsx
+      carousel.tsx
+      checkbox.tsx
+      collapsible.tsx
+      command.tsx
+      context-menu.tsx
+      dialog.tsx
+      drawer.tsx
+      dropdown-menu.tsx
+      form.tsx
+      hover-card.tsx
+      input-otp.tsx
+      input.tsx
+      label.tsx
+      menubar.tsx
+      navigation-menu.tsx
+      pagination.tsx
+      popover.tsx
+      progress.tsx
+      radio-group.tsx
+      resizable.tsx
+      scroll-area.tsx
+      select.tsx
+      separator.tsx
+      sheet.tsx
+      sidebar.tsx
+      skeleton.tsx
+      slider.tsx
+      sonner.tsx
+      switch.tsx
+      table.tsx
+      tabs.tsx
+      textarea.tsx
+      toggle-group.tsx
+      toggle.tsx
+      tooltip.tsx
+
+    AppLayout.tsx
+    AuthShell.tsx
+    DataTable.tsx
+    FileUpload.tsx
+    LogConsole.tsx
+    MetricCard.tsx
+    ProgressBar.tsx
+    Sidebar.tsx
+
+  features/workspace/
+    AutoMLTab.tsx
+    OverviewTab.tsx
+    ReportsTab.tsx
+    ResultsTab.tsx
+    VisualizationsTab.tsx
+
+  hooks/
+    use-mobile.tsx
+    useStore.ts
+
+  lib/
+    utils.ts
+
+  routes/
+    __root.tsx
+    app.tsx
+    datasets.$datasetId.tsx
+    datasets.index.tsx
+    index.tsx
+    login.tsx
+    signup.tsx
+
+  services/
+    mockApi.ts
+    store.ts
+
+  router.tsx
+  routeTree.gen.ts
+  styles.css
+
+.gitignore
+.prettierignore
+.prettierrc
+bunfig.toml
+components.json
+eslint.config.js
+package.json
+tsconfig.json
+vite.config.ts
+
+OUTPUT FORMAT:
+- Provide ONLY bash commands using mkdir and touch.
+- Ensure nested directories are created correctly before files.
+- No explanations, no comments, no extra text.
