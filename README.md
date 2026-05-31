@@ -14,15 +14,45 @@ The platform allows users to:
 
 ## 📸 Demo
 
-> _Demo screenshot coming soon..._
+> _Demo screenshot below..._:
+Model training result tab:
+<p align="center">
+  <img src="src/images/confacc.jpg" width="800">
+</p>
+
+Dashboard tab:
+<p align="center">
+  <img src="src/images/datalabDashboard.jpg" width="800">
+</p>
+
+Home page:
+<p align="center">
+  <img src="src/images/DatalabHome.jpg" width="800">
+</p>
+
+report tab:
+<p align="center">
+  <img src="src/images/datalabreport.jpg" width="800">
+</p>
+
+Model training page:
+<p align="center">
+  <img src="src/images/datalablog.jpg" width="800">
+</p>
+
+Visualization_tab:jpg:
+<p align="center">
+  <img src="src/images/visualization_tab.jpg" width="800">
+</p>
+
 
 ---
 
 ## 🔗 Important Links
 
-- 🌐 Live Demo: `https://your-live-demo-link.com`
-- 🎨 Frontend Repository: `https://github.com/your-frontend-repo`
-- ⚙️ Backend Repository: `https://github.com/your-backend-repo`
+- 🌐 Live Demo: `https://strakdatalab.vercel.app/`
+- 🎨 Frontend Repository: ` https://github.com/LaiTechTinker/strak-lab-front.git`
+- ⚙️ Backend Repository: `https://github.com/LaiTechTinker/datagenie`
 
 ---
 
@@ -64,13 +94,13 @@ The platform allows users to:
 
 #### Frontend
 ```bash
-git clone https://github.com/LaiTechTinker/vibecoded_data_genie-frontend
-cd vibecode-frontend
+git clone  https://github.com/LaiTechTinker/strak-lab-front.git
+cd strak-lab-front.git
 ```
 
 #### Backend
 ```bash
-git clone https://github.com/datagenie
+git clone https://github.com/LaiTechTinker/datagenie
 cd data_genie
 ```
 
@@ -91,10 +121,27 @@ npm run dev
 pip install -r requirements.txt
 python app.py
 ```
-
+*provide your secret keys in the env file
 ---
 
+## 📁 Backend Folder Structure (Placeholder)
 
+```bash
+backend/
+│── app.py
+│── routes/
+│── models/
+│── services/
+│── utils/
+│── requirements.txt
+│── config/
+│── api/
+│── uploads/
+│── reports/
+│── sockets/
+```
+
+---
 
 ## 🧪 Usage
 
