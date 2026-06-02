@@ -53,7 +53,7 @@ function DatasetsPage() {
         <h1 className="text-lg font-semibold tracking-tight">Datasets</h1>
       </header>
 
-      <div className="p-6 space-y-6 max-w-5xl">
+      <div className="p-4 sm:p-6 space-y-6 max-w-5xl">
         <FileUpload onFile={handleUpload} loading={loading} />
         {error && (
           <div className="text-sm text-destructive bg-destructive/10 border border-destructive/30 rounded-md px-3 py-2">

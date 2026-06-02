@@ -51,7 +51,7 @@ function Dashboard() {
         </Link>
       </header>
 
-      <div className="p-6 space-y-6">
+      <div className="p-4 sm:p-6 space-y-6">
         <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           <MetricCard label="Total datasets" value={datasets.length} icon={<Database className="w-4 h-4" />} />
           <MetricCard label="Reports generated" value={reports.length} icon={<FileText className="w-4 h-4" />} />

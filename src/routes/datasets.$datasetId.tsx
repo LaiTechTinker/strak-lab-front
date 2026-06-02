@@ -85,12 +85,12 @@ function WorkspacePage() {
         <p className="text-xs text-muted-foreground">
           {dataset.rows.length.toLocaleString()} rows · {dataset.columns.length} columns
         </p>
-        <nav className="mt-3 flex gap-1 -mb-px">
+        <nav className="mt-3 flex gap-1 -mb-px overflow-x-auto whitespace-nowrap pb-1">
           {TABS.map((t) => (
             <button
               key={t}
               onClick={() => setTab(t)}
-              className={`px-3 py-2 text-sm border-b-2 transition-colors ${
+              className={`px-3 py-2 text-sm border-b-2 transition-colors flex-shrink-0 ${
                 tab === t
                   ? "border-primary text-foreground font-medium"
                   : "border-transparent text-muted-foreground hover:text-foreground"
@@ -102,7 +102,7 @@ function WorkspacePage() {
         </nav>
       </header>
 
-      <div className="p-6">
+      <div className="p-4 sm:p-6">
         {tab === "overview" && <OverviewTab dataset={dataset} />}
         {tab === "visualizations" && <VisualizationsTab dataset={dataset} />}
         {tab === "reports" && <ReportsTab dataset={dataset} />}
